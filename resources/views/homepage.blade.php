@@ -32,7 +32,7 @@
                                 </tr>
                             </thead>
                             <tbody class="bg-white text-gray-700">
-                                @foreach ($mahasiswa as $data)
+                                @foreach ($users as $data)
                                     <tr class="border-b border-gray-200 hover:bg-gray-100 transition duration-150">
                                         <td class="py-3 px-4 text-center">{{ $loop->iteration }}</td>
                                         <td class="py-3 px-4">{{ $data['name'] }}</td>
@@ -62,7 +62,7 @@
                                 </tr>
                             </thead>
                             <tbody class="bg-white text-gray-700">
-                                @foreach ($dosen as $data)
+                                @foreach ($users as $data)
                                     <tr class="border-b border-gray-200 hover:bg-gray-100 transition duration-150">
                                         <td class="py-3 px-4 text-center">{{ $loop->iteration }}</td>
                                         <td class="py-3 px-4">{{ $data['name'] }}</td>
@@ -92,7 +92,7 @@
                                 </tr>
                             </thead>
                             <tbody class="bg-white text-gray-700">
-                                @foreach ($karyawan as $data)
+                                @foreach ($users as $data)
                                     <tr class="border-b border-gray-200 hover:bg-gray-100 transition duration-150">
                                         <td class="py-3 px-4 text-center">{{ $loop->iteration }}</td>
                                         <td class="py-3 px-4">{{ $data['name'] }}</td>
